@@ -1,4 +1,4 @@
-# Detection Engineering & Threat Validation Lab
+# ML Detection Engineering Lab
 
 ## Objective
 [Brief Objective - Remove this afterwards]
