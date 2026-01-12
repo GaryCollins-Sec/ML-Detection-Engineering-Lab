@@ -2,7 +2,7 @@
 
 ## Objective
 
-Engineered an automated security workflow to streamline the triage of suspicious network connections. By integrating Wazuh and Shuffle SOAR, the system eliminates manual reputation lookups, providing analysts with pre-enriched alerts for immediate decision-making.
+Engineered an automated security orchestration pipeline to streamline the triage of suspicious network connections. By integrating Wazuh as the primary XDR/SIEM and Shuffle SOAR for workflow automation, I successfully eliminated manual reputation lookups. This system delivers pre-enriched alerts directly to analysts, significantly reducing Mean Time to Respond (MTTR) and allowing for immediate, data-driven decision-making.
 
 ### Skills Learned
 
@@ -11,8 +11,6 @@ Engineered an automated security workflow to streamline the triage of suspicious
 - Kernel-Level Auditing: Implemented auditd on Linux to capture low-level system calls (execve, connect, open), providing the deep telemetry necessary for behavioral analysis.
 
 - API Integration: Connected Shuffle SOAR to the Wazuh API to fetch alerts in real-time.
-
-- Automated Response Workflows: Designed logic in Shuffle to automatically pass suspicious logs to the ML model for scoring and execute defensive actions based on the output.
 
 - Containerization: Deployed and managed the SOAR platform using Docker, demonstrating an understanding of microservices architecture.
 
